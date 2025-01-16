@@ -32,9 +32,11 @@ https://www.adafruit.com/product/287
   
 In 2011, after Arduino became quite popular for making it much easier to make just about anything with microcontrollers, 
 **Chris Sparnicht ("Laughter On Water")**, created an Arduino version of the Brain Machine, based on my original project.  
+https://github.com/LaughterOnWater/Arduino-Brain-Machine  
+Many thanks, Chris!  
   
 **This year (2025) I decided to create a new, much easier to make version of the kit I made with Limor.**  
-**The result is the project on this GitHub, with all documentation given.**  
+**The result is the project in this GitHub repository, with all documentation given.**  
   
 ## More Background of the Brain Machine  
   
