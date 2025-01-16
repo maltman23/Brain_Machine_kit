@@ -42,7 +42,7 @@ Many thanks, Chris!
   
 It has been known since people started recording brainwaves (with an EEG) in the 1920s, that if you blink lights at brainwave frequencies, when a person watches the blinking lights (with their eyes closed), for most people, their brain will synchronize to the external brainwave frequencies.  (This is called "entrainment".)  And people subjectively say that they feel similarly as if their brain were generating those brainwave frequency on their own (for instance: a state of meditation).  One interesting (and popular) side effect is that people hallucinate beautiful colors and patterns while enjoying the state they are in.  
   
-People started creating devices to generate brainwave frequencies as early as the 1950s.  Here is one example -- Brion Grysin's Dreammachine:  
+People started creating devices to generate brainwave frequencies as early as the 1950s.  Here is one example -- Brion Gysin's Dreammachine:  
 https://en.wikipedia.org/wiki/Dreamachine  
 <img src="https://github.com/user-attachments/assets/5fa44f32-06ca-499b-8071-f1d35c588714" width="200" />  
   
