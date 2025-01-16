@@ -125,4 +125,8 @@ USE AT YOUR OWN RISK.
   
 ## License  
   
-CC BY-SA  
+Creative Commons Attribution-Sharealike 4.0 International  
+CC BY-SA 4.0  
+<img src="https://github.com/user-attachments/assets/f5e50525-b9bc-4b47-a2aa-e7795c1449eb" width="88" />  
+https://creativecommons.org/licenses/by-sa/4.0/  
+  
