@@ -1198,6 +1198,17 @@
 			(thermal_bridge_angle 0)
 			(uuid "8e89e6d4-1816-4e51-9ea6-a0951dec6253")
 		)
+		(model "${KIPRJMOD}/3Dmodels_for_this_project/Arduino_Nano_SuperMicro--3DModel.step"
+			(offset
+				(xyz -10.76 -13.16 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Mitch_Library:Cap_THT_0.5mm"
 		(layer "F.Cu")
