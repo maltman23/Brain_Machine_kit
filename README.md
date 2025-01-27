@@ -9,6 +9,27 @@ Great for **hacking on** to play with brainwave sequences.
 Great for **Meditating, Hallucinating, and Tripping Out!**  
 <img src="https://github.com/user-attachments/assets/41ef8c39-80f0-4eb3-aa94-ef013615c867" width="300" />  
   
+## Meditation sequence  
+  
+**The Brain Machine comes pre-programmed with a brainwave sequence for a nice 14-minute long Meditation.**  
+The sequence starts with lots of Beta (awake / conscious), which is where most people will be when they begin.  
+Then Alpha waves (dreamy / trancy) are added, to connect with subconscious Theta that will be coming up.  
+Then the Beta is reduced (for less conscious, making it easier to be move more into a trance).  
+Then some Theta (more subconscious) is added, and in the middle, there are some pulses of Delta (creativity).  
+Then the sequence is reversed, to come back up, nice and refreshed.  
+  
+The Meditation Arduino sketch is included in this repository.  
+  
+## Gamma sequence  
+  
+[Early research over the last few years at MIT](https://picower.mit.edu/news/40-hz-vibrations-reduce-alzheimers-pathology-symptoms-mouse-models) 
+and other research labs shows that "plaque" (which is one cause of Alzheimer's pathology) is reduced in mice. 
+Studies are ongoing for helping humans with Alzheimer's pathology.  
+40 Hz Gamma stimulation may also be [helpful for "chemo brain fog"](https://picower.mit.edu/news/noninvasive-treatment-chemo-brain).  
+There may also be some benefit to people with CFS/ME, or people with "brain fog" from long Covid.  
+  
+A Gamma Arduino sketch is included in this repository.  It plays Gamma waves (40.0 Hz) for one hour.  
+    
 ## Brief History of the Project  
   
 The Brain Machine was originally a project I created by hacking the Adafruit MiniPOV3 kit, 
@@ -75,6 +96,8 @@ As stated earlier, this turned into the Brain Machine kit that I created with Li
   
 ## The New Brain Machine Kit  
   
+<img src="https://github.com/user-attachments/assets/a946fda4-e7c7-444a-9972-7d3a58be4286" width="200" />  
+  
 This new version of the Brain Machine kit functions exactly like the other versions.  
 It comes pre-programmed with the same really nice meditation sequence.  
 The main differences between the new Brain Machine kit and the old one are -- the new one:  
@@ -84,7 +107,8 @@ The main differences between the new Brain Machine kit and the old one are -- th
 * The Sketch has even more comments in it than the old firmware, making it easy to modify, and great to learn from, if you like.  
 * Has the ability to easily add Gama waves to a Brainwave sequence.  
 * Has the ability to add alternate blinking LEDs (left/right), instead of both always blinking On/Off simultaneously.
-* Runs on one AAA battery, so it is lightweight and more comfortable to wear and use.  
+* Runs on one AAA battery, so it is lightweight and more comfortable to wear and use.
+* It can easily be re-programmed with new brainwave sequences, such as the Gamma sequence Arduino sketch (included in this repository).  
   
 ## How the Binaural Beats are Generated  
 
@@ -96,11 +120,11 @@ we can generate the following pitches for each ear
 to create the desired binaural beat for our brains to synch up with (entrain to):  
 |Brainwave type   | R Ear  | L Ear  | Beat     |  
 | :-------------: | ------ | ------ | -------: |
-| Gama:           | 280.00 | 220.00 | 40.0 Hz  |
-| Beta:           | 192.80 | 207.20 | 14.4 Hz  |
-| Alpha:          | 194.45 | 205.55 | 11.1 Hz  |
-| Theta:          | 197.00 | 203.00 |  6.0 Hz  |
-| Delta:          | 198.90 | 201.10 |  2.2 Hz  |
+| Gama:           |  80.00 | 120.00 | 40.0 Hz  |
+| Beta:           |  92.80 | 107.20 | 14.4 Hz  |
+| Alpha:          |  94.45 | 105.55 | 11.1 Hz  |
+| Theta:          |  97.00 | 103.00 |  6.0 Hz  |
+| Delta:          |  98.90 | 101.10 |  2.2 Hz  |
   
 ## The Arduino Nano SuperMicro  
   
