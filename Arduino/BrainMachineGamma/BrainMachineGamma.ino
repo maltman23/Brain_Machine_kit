@@ -1,5 +1,5 @@
 /***************************************************
-Sketch: Sound & Light Machine for Arduino
+Sketch: Sound & Light Machine for Arduino -- Gamma for 1 hour
 Author: Chris Sparnicht - http://low.li
 Creation Date: 2011.01.31
 Last Modification Date: 2011.02.12
@@ -72,14 +72,10 @@ without needing to search and replace them in many places.
 /***************************************************
 BRAINWAVE TABLE
 See 'Some information about PROGMEM' above.
-Table of values for meditation start with 
-lots of Beta (awake / conscious)
-add Alpha (dreamy / trancy to connect with 
-      subconscious Theta that'll be coming up)
-reduce Beta (less conscious)
-start adding Theta (more subconscious)
-pulse in some Delta (creativity)
-and then reverse the above to come up refreshed
+Table of values for Gamma start with 
+a few seconds of delta followed by beta (just to see that the sequence has started)
+then play Gamma for 1 hour 
+then again play a few seconds of delta followed by beta (just to see that the sequence has ended)
 ***************************************************/
 struct brainwaveElement {
   char bwType;  // 'a' for Alpha, 'b' for Beta, 't' for Theta,'d' for Delta or 'g' for gamma ('0' signifies last entry in table)
@@ -88,51 +84,18 @@ struct brainwaveElement {
   unsigned long int bwDuration;  // Duration of each Brainwave element (divide by 10,000 to get seconds)
                                  // For example:
                                  //    { 'b', 600000 }   plays a beta wave for 60 seconds
-// The following table adds up to 856 seconds, which is a nice 14 minutes, 16 second meditation sequence.  
+// The following table adds up to 3612 seconds, which is an hour of Gamma, with a short intro/outro of slower frequencies to be able to see the beginning and end of the sequence).  
 } const brainwaveTab[] PROGMEM = { 
-{ 'b', 600000 },
-{ 'a', 100000 },
-{ 'b', 200000 },
-{ 'a', 150000 },
-{ 'b', 150000 },
-{ 'a', 200000 },
-{ 'b', 100000 },
-{ 'a', 300000 },
-{ 'b',  50000 },
-{ 'a', 600000 },
-{ 't', 100000 },
-{ 'a', 300000 },
-{ 't', 200000 },
-{ 'a', 300000 },
-{ 't', 300000 },
-{ 'a', 150000 },
-{ 't', 600000 },
-{ 'a', 150000 },
-{ 'b',  10000 },
-{ 'a', 150000 },
-{ 't', 600000 },
-{ 'd',  10000 },
-{ 't', 100000 },
-{ 'd',  10000 },
-{ 't', 100000 },
-{ 'd',  10000 },
-{ 't', 300000 },
-{ 'a', 150000 },
-{ 'b',  10000 },
-{ 'a', 150000 },
-{ 't', 300000 },
-{ 'a', 150000 },
-{ 'b',  10000 },
-{ 'a', 200000 },
-{ 'b',  50000 },
-{ 'a', 200000 },
-{ 'b', 150000 },
-{ 'a', 150000 },
-{ 'b', 200000 },
-{ 'a', 100000 },
-{ 'b', 250000 },
-{ 'a',  50000 },
-{ 'b', 600000 },
+{ 'd',   20000 },
+{ 'b',   40000 },
+{ 'g', 6000000 },
+{ 'g', 6000000 },
+{ 'g', 6000000 },
+{ 'g', 6000000 },
+{ 'g', 6000000 },
+{ 'g', 6000000 },
+{ 'b',   40000 },
+{ 'd',   20000 },
 { '0', 0 }
 };
 
@@ -155,7 +118,7 @@ to create the desired binaural beat for our brains to synch up with
 BTW, when a brain synchs up to an external frequency, it is called "entrainment".
 For the Brain Machine, we entrain our brains using both sound (ears) and light (eyes).
      Brainwave type      R Ear    L Ear    Beat
-            Gama:         80.00   120.00   40.0 Hz
+            Gamma:        80.00   120.00   40.0 Hz
             Beta:         92.80   107.20   14.4 Hz
             Alpha:        94.45   105.55   11.1 Hz
             Theta:        97.00   103.00    6.0 Hz
@@ -169,7 +132,7 @@ Isolating the central pitch makes it easy for
 the user to choose a preferred frequency base.
 
 ***************************************************/
-float binauralBeat[] = { 40.0, 14.4, 11.1, 6.0, 2.2 }; // For gama, beta, alpha, theta, and delta beat differences.
+float binauralBeat[] = { 40.0, 14.4, 11.1, 6.0, 2.2 }; // For gamma, beta, alpha, theta, and delta beat differences.
 Tone rightEar;              // For using the Tone library for generating a pitch for the right ear
 Tone leftEar;               // For using the Tone library for generating a pitch for the left ear
 float centralTone = 100.0;  // We starting at this central frequency and spread the pitches for each ear from there to create the desired beat frequencies.
@@ -320,8 +283,6 @@ For each Brainwave type given below, there are two cases (one with lower-case le
 * one with both LEDs blinking the same (lower-case letter, such as 'b')
 * one with the LEDs blinking alternately (upper-case letter, such as 'B').
 The Brainwave table included near the top of this sketch does not make use of alternating blinking.  They are included here in case you would like to experiment.
-
-The same is true for including 'g' and 'G' (Gamma), which is not used in the Brainwave table used in this sketch.  These are included here for you to experiment with.
 ***************************************************/
 
 void do_brainwave_element(int index) {     
