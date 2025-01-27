@@ -8,13 +8,12 @@
 1,"R1, R2","4.7K, 1/4W, 5%, ammo pack",https://www.aliexpress.com/item/1005002369580841.html,4.7K
 4,"R3, R4","47, 1/4W, 5%, ammo pack",https://www.aliexpress.com/item/1005002369580841.html,47R
 1,S1,"SPST slide switch, 5-pin (On/Off)",https://www.aliexpress.com/item/1005007585395420.html,25pcs SS12F44 3mm
-1,PCB,PCB,,
+1,PCB,PCB,https://pcbway.com,
 27,header pins,"Male Header Pins, Straight Single Row 40 Pin 0.1 Inch",https://www.aliexpress.com/item/1005007321227560.html,--
 1,safety glasses,Cycling Sunglasses UV Protection Windproof Glasses,https://www.aliexpress.com/item/1005007594480877.html,black
 2,zip ties,"1.8x100mm zip wrap, nylon, black",https://www.aliexpress.com/item/1005001444739470.html,1.8x100(black)
-1,small bag,4x6cm ziplock plastic bag,https://www.aliexpress.com/item/1005006015349229.html,"Double Sided 5-Wire, 4 x 6cm"
-1,large bag,12x17cm ziplock plastic bag,https://www.aliexpress.com/item/1005006015349229.html,"Double Sided 5-Wire, 12 x 17cm"
+1,small bag,6x9cm ziplock plastic bag,https://www.aliexpress.com/item/1005008239410451.html,6x9cm(100pcs)
+1,large bag,12x18cm ziplock plastic bag,https://www.aliexpress.com/item/1005008239410451.html,12x18cm(100pcs)
 1,headphone,Headphones with stereo 3.5mm jack,https://www.amazon.com/gp/product/B08BT7KH9G,
 1,AAA battery,AAA Alkaline battery,,
-1,graphic,,,
-1,label,,,
+1,graphix,Trippy graphix for front of glasses,https://github.com/maltman23/Brain_Machine_kit/blob/main/Graphix/Graphix_with_Glasses_Outline_Sheet.pdf,
