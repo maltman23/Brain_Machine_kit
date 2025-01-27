@@ -7,7 +7,22 @@ Not only that, but you get to hallucinate beautiful colors and patterns along th
 Great for **learning to solder** -- even for total beginners.  
 Great for **hacking on** to play with brainwave sequences.  
 Great for **Meditating, Hallucinating, and Tripping Out!**  
+  
+## The New Brain Machine Kit  
+  
 <img src="https://github.com/user-attachments/assets/41ef8c39-80f0-4eb3-aa94-ef013615c867" width="300" />  
+  
+This new version of the Brain Machine kit functions exactly like the other versions.  
+It comes pre-programmed with the same really nice meditation sequence.  
+The main differences between the new Brain Machine kit and the old one are -- the new one:  
+* Has a new PC Board that is much easier to solder together.  
+* Uses a small Arduino Nano board, so it is much easier to re-program and hack on.  
+* Can be easily re-programmed with other available Brainwave sequences.  
+* The Sketch has even more comments in it than the old firmware, making it easy to modify, and great to learn from, if you like.  
+* Has the ability to easily add Gama waves to a Brainwave sequence.  
+* Has the ability to add alternate blinking LEDs (left/right), instead of both always blinking On/Off simultaneously.
+* Runs on one AAA battery, so it is lightweight and more comfortable to wear and use.
+* It can easily be re-programmed with new brainwave sequences, such as the Gamma sequence Arduino sketch (included in this repository).  
   
 ## Meditation sequence  
   
@@ -93,22 +108,6 @@ I thought it would be fun to use her kit as a platform to make it easy for total
 and to make several projects that I developed using the MiniPOV3 kit -- including what I now called the "Brain Machine".
   
 As stated earlier, this turned into the Brain Machine kit that I created with Limor.  It also inspired Chris "Laughter On Water" to make his Arduino version.  And, many years later, I'm now making a new, Arduino-based Brain Machine kit.  
-  
-## The New Brain Machine Kit  
-  
-<img src="https://github.com/user-attachments/assets/a946fda4-e7c7-444a-9972-7d3a58be4286" width="200" />  
-  
-This new version of the Brain Machine kit functions exactly like the other versions.  
-It comes pre-programmed with the same really nice meditation sequence.  
-The main differences between the new Brain Machine kit and the old one are -- the new one:  
-* Has a new PC Board that is much easier to solder together.  
-* Uses a small Arduino Nano board, so it is much easier to re-program and hack on.  
-* Can be easily re-programmed with other available Brainwave sequences.  
-* The Sketch has even more comments in it than the old firmware, making it easy to modify, and great to learn from, if you like.  
-* Has the ability to easily add Gama waves to a Brainwave sequence.  
-* Has the ability to add alternate blinking LEDs (left/right), instead of both always blinking On/Off simultaneously.
-* Runs on one AAA battery, so it is lightweight and more comfortable to wear and use.
-* It can easily be re-programmed with new brainwave sequences, such as the Gamma sequence Arduino sketch (included in this repository).  
   
 ## How the Binaural Beats are Generated  
 
