@@ -9,6 +9,27 @@ Great for **hacking on** to play with brainwave sequences.
 Great for **Meditating, Hallucinating, and Tripping Out!**  
 <img src="https://github.com/user-attachments/assets/41ef8c39-80f0-4eb3-aa94-ef013615c867" width="300" />  
   
+## Meditation sequence  
+  
+**The Brain Machine comes pre-programmed with a brainwave sequence for a nice 14-minute long Meditation.**  
+The sequence starts with lots of Beta (awake / conscious), which is where most people will be when they begin.  
+Then Alpha waves (dreamy / trancy) are added, to connect with subconscious Theta that will be coming up.  
+Then the Beta is reduced (for less conscious, making it easier to be move more into a trance).  
+Then some Theta (more subconscious) is added, and in the middle, there are some pulses of Delta (creativity).  
+Then the sequence is reversed, to come back up, nice and refreshed.  
+  
+The Meditation Arduino sketch is included in this repository.  
+  
+## Gamma sequence  
+  
+[Early research over the last few years at MIT](https://picower.mit.edu/news/40-hz-vibrations-reduce-alzheimers-pathology-symptoms-mouse-models) 
+and other research labs shows that "plaque" (which is one cause of Alzheimer's pathology) is reduced in mice. 
+Studies are ongoing for helping humans with Alzheimer's pathology.  
+40 Hz Gamma stimulation may also be [helpful for "chemo brain fog"](https://picower.mit.edu/news/noninvasive-treatment-chemo-brain).  
+There may also be some benefit to people with CFS/ME, or people with "brain fog" from long Covid.  
+  
+A Gamma Arduino sketch is included in this repository.  It plays Gamma waves (40.0 Hz) for one hour.  
+    
 ## Brief History of the Project  
   
 The Brain Machine was originally a project I created by hacking the Adafruit MiniPOV3 kit, 
