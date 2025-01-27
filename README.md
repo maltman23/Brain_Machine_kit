@@ -96,11 +96,11 @@ we can generate the following pitches for each ear
 to create the desired binaural beat for our brains to synch up with (entrain to):  
 |Brainwave type   | R Ear  | L Ear  | Beat     |  
 | :-------------: | ------ | ------ | -------: |
-| Gama:           | 280.00 | 220.00 | 40.0 Hz  |
-| Beta:           | 192.80 | 207.20 | 14.4 Hz  |
-| Alpha:          | 194.45 | 205.55 | 11.1 Hz  |
-| Theta:          | 197.00 | 203.00 |  6.0 Hz  |
-| Delta:          | 198.90 | 201.10 |  2.2 Hz  |
+| Gama:           |  80.00 | 120.00 | 40.0 Hz  |
+| Beta:           |  92.80 | 107.20 | 14.4 Hz  |
+| Alpha:          |  94.45 | 105.55 | 11.1 Hz  |
+| Theta:          |  97.00 | 103.00 |  6.0 Hz  |
+| Delta:          |  98.90 | 101.10 |  2.2 Hz  |
   
 ## The Arduino Nano SuperMicro  
   
