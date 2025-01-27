@@ -3,9 +3,11 @@
 A hackable Sound &amp; Light Machine kit that is easy to make,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and comes pre-programmed with a really nice 14-minute meditation brainwave sequence.  
 Not only that, but you get to hallucinate beautiful colors and patterns along the way...  
-
-Great for learning to solder -- even for total beginners.  
-Great for hacking on to play with brainwave sequences.  
+<img src="https://github.com/user-attachments/assets/61bc42e6-737f-4c7c-96b8-14911c37bd04" width="200" />  
+Great for **learning to solder** -- even for total beginners.  
+Great for **hacking on** to play with brainwave sequences.  
+Great for **Meditating, Hallucinating, and Tripping Out!**  
+<img src="https://github.com/user-attachments/assets/41ef8c39-80f0-4eb3-aa94-ef013615c867" width="300" />  
   
 ## Brief History of the Project  
   
