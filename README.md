@@ -117,7 +117,7 @@ https://github.com/maltman23/ArduinoNanoSuperMini
 ## DISCLAIMER  
   
 Light and Sound Machines, such as this one, can be fun for many of us, 
-but may be seriously dangerous for those prone to siezures or who are photosensitive. 
+but may be seriously dangerous for those prone to seizures or who are photosensitive. 
 When in doubt, seek medical attention. 
 You assume all liability for any damage 
 done to your equipment, or to your own health, or to those whom you expose to this 
