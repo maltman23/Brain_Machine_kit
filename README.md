@@ -96,6 +96,8 @@ As stated earlier, this turned into the Brain Machine kit that I created with Li
   
 ## The New Brain Machine Kit  
   
+<img src="https://github.com/user-attachments/assets/a946fda4-e7c7-444a-9972-7d3a58be4286" width="200" />  
+  
 This new version of the Brain Machine kit functions exactly like the other versions.  
 It comes pre-programmed with the same really nice meditation sequence.  
 The main differences between the new Brain Machine kit and the old one are -- the new one:  
@@ -105,7 +107,8 @@ The main differences between the new Brain Machine kit and the old one are -- th
 * The Sketch has even more comments in it than the old firmware, making it easy to modify, and great to learn from, if you like.  
 * Has the ability to easily add Gama waves to a Brainwave sequence.  
 * Has the ability to add alternate blinking LEDs (left/right), instead of both always blinking On/Off simultaneously.
-* Runs on one AAA battery, so it is lightweight and more comfortable to wear and use.  
+* Runs on one AAA battery, so it is lightweight and more comfortable to wear and use.
+* It can easily be re-programmed with new brainwave sequences, such as the Gamma sequence Arduino sketch (included in this repository).  
   
 ## How the Binaural Beats are Generated  
 
